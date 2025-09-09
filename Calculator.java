@@ -23,20 +23,20 @@ public class Calculator
 
     public int addition(int x, int y) 
     { 
-       //return x + y; 
+      return x + y; 
     } 
     public int subtraction(int x, int y) 
     { 
-       //return x - y; 
+       return x - y; 
     } 
     public int multiplication(int x, int y) 
     {     
-       //return x * y; 
+       return x * y; 
     } 
     public int division(int x, int y) 
     { 
-       //solution = x / y; 
-       //return solution; 
+      solution = x / y; 
+      return solution; 
     } 
 
     public void calc(int ops){
@@ -49,19 +49,19 @@ public class Calculator
              case(1): 
                System.out.println(addition(x, y)); 
 
-           //    operands.next(); 
+              operands.next(); 
                break; 
              case(2): 
                  System.out.println(subtraction(x, y)); 
-              // operands.next(); 
+              operands.next(); 
                break; 
              case(3): 
                  System.out.println(multiplication(x, y)); 
-             //  operands.next(); 
+              operands.next(); 
                break; 
              case(4): 
                  System.out.println(division(x, y));
-             //  operands.next(); 
+              operands.next(); 
                break; 
           } 
     }
